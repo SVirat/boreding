@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native build folders
+android/
+ios/
+
+# NOTE: .env is NOT excluded here (unlike .gitignore) so EAS cloud builds
+# can read API keys from it. The .env file contains EXPO_PUBLIC_* vars
+# that get baked into the app at build time.
+.env.local
+.env.*.local
+
+# Signing keys & certificates
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+google-services.json
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# APK/AAB/IPA build artifacts
+*.apk
+*.aab
+*.ipa
+
+# Tests (not needed in build)
+__tests__/
+jest.config.js
